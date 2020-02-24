@@ -122,14 +122,14 @@ export const Search: FunctionComponent = () => {
       {isOpen &&
       <SearchBox open={isOpen} ref={searchRef}>
           <SearchInput
-              placeholder={`Search...`}
+              placeholder={`Czego szukasz?`}
               autoFocus={true}
               ref={inputRef}
               value={query}
               onChange={search}
               onKeyDown={handleKey}
           />
-          <ResultsTitle>Results ({results.length})</ResultsTitle>
+          <ResultsTitle>Wyniki: ({results.length})</ResultsTitle>
           <SearchResults ref={resultListRef}>
             {results.map((item, index) => (
               <SearchResult

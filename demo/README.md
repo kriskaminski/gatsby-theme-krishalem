@@ -1,3 +1,3 @@
-# Nehalem Demo
+# Krishalem Demo
 
-Hey there.
+Demo starter for Krishalem theme.

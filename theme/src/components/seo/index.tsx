@@ -20,7 +20,7 @@ interface SEOProps {
 const SEO: FunctionComponent<SEOProps> = ({
                                             title,
                                             description,
-                                            lang = 'en',
+                                            lang = 'pl',
                                             location,
                                             publishedAt,
                                             updatedAt,

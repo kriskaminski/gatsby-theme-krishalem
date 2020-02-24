@@ -35,7 +35,7 @@ const PageSidebarContent: FunctionComponent = () => {
               path
               tags
               created
-              createdPretty: created(formatString: "DD MMMM, YYYY")
+              createdPretty: created(formatString: "DD.MM.YYYY")
               excerpt
               featuredImage {
                 childImageSharp {

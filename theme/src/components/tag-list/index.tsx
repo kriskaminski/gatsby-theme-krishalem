@@ -37,7 +37,7 @@ const TagList: FunctionComponent = () => {
 
   return (
     <TagContainer>
-      <TagListTitle>Featured Tags</TagListTitle>
+      <TagListTitle>O czym chciałbyś poczytać?</TagListTitle>
       <StyledTagList>
         {tags.map((tag, index) => {
           const icon = tag.icon;
@@ -56,7 +56,7 @@ const TagList: FunctionComponent = () => {
         })}
       </StyledTagList>
       <TagArchiveLinkWrapper>
-        <TagArchiveLink to={`/tags`}>See all tags</TagArchiveLink>
+        <TagArchiveLink to={`/tags`}>Wszystkie kategorie</TagArchiveLink>
       </TagArchiveLinkWrapper>
     </TagContainer>
   );

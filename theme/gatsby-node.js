@@ -51,9 +51,9 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
               tags
               excerpt
               created
-              createdPretty: created(formatString: "DD MMMM, YYYY")
+              createdPretty: created(formatString: "DD.MM.YYYY")
               updated
-              updatedPretty: created(formatString: "DD MMMM, YYYY")
+              updatedPretty: created(formatString: "DD.MM.YYYY")
               featuredImage {
                 childImageSharp {
                   sizes(maxWidth: 500, quality: 70) {

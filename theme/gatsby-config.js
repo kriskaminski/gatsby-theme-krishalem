@@ -2,30 +2,28 @@ module.exports = (themeOptions) => {
   const loadDefaultPages = themeOptions.loadDefaultPages !== undefined ? themeOptions.loadDefaultPages : true;
   const contentPath      = themeOptions.contentPath || 'content';
   const manifest         = themeOptions.manifest ? themeOptions.manifest : {
-    name: `nehalem - A Gatsby theme`,
-    short_name: `nehalem`,
+    name: `krishalem - A Gatsby theme`,
+    short_name: `krishalem`,
     start_url: `/`,
-    background_color: `#a4cbb8`,
-    theme_color: `#a4cbb8`,
+    background_color: `#536DFE`,
+    theme_color: `#536DFE`,
     display: `minimal-ui`,
     icon: `${__dirname}/assets/nehalist-gatsby.png`
   };
 
   return {
     siteMetadata: {
-      title: `nehalem`,
-      siteUrl: `https://nehalem.netlify.com`,
-      description: `A Gatsby theme for %TOPICS%`,
+      title: `Kris Kaminski`,
+      siteUrl: `https://kriskaminski.com`,
+      description: `Blog o %TOPICS%`,
       topics: [
-        `bloggers`,
-        `geeks`,
-        `nerds`,
-        `people`,
-        `everyone`
+        `automatyzacji`,
+        `chmurach`,
+        `rpa`
       ],
       menu: [
         {
-          name: 'Home',
+          name: 'Start',
           path: '/'
         },
         {
@@ -39,23 +37,21 @@ module.exports = (themeOptions) => {
           path: '/rss.xml'
         },
         {
-          name: 'Sitemap',
+          name: 'Mapa strony',
           path: '/sitemap.xml'
         }
       ],
       search: true,
       author: {
-        name: `nehalem`,
-        description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+        name: `kriskaminski`,
+        description: `Cześć jestem Krzysiek. Piszę o rozwiązywaniu problemów i oszczędzaniu czasu dzięki technologii`,
         social: {
           facebook: ``,
-          twitter: `https://twitter.com/nehalist`,
-          linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+          twitter: `https://twitter.com/kris__kaminski`,
+          linkedin: `https://www.linkedin.com/in/kris-kaminski`,
           instagram: ``,
           youtube: ``,
-          github: `https://github.com/nehalist`,
+          github: `https://github.com/kriskaminski`,
           twitch: ``
         }
       }

@@ -5,7 +5,7 @@ tags: ["Theme"]
 featuredImage: "./cover.jpg"
 excerpt: How to create pages, posts and manage tags.
 created: 2019-07-21
-updated: 2019-07-21
+updated: 2020-07-21
 ---
 
 Content in Nehalem is served by the [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/) plugin. But to 
