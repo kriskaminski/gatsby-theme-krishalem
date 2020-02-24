@@ -37,7 +37,7 @@ const TagTemplate: FunctionComponent<TagTemplateProps> = ({data, location}) => {
         location={location}
         type={`Series`}
       />
-      <Subheader title={tag.name} subtitle={`${posts.length} posts`} backgroundColor={tag.color}/>
+      <Subheader title={tag.name} subtitle={`Posty w kategorii: ${posts.length}`} backgroundColor={tag.color}/>
       <PostGrid posts={posts} />
     </Layout>
   );
@@ -67,7 +67,7 @@ export const query = graphql`
             tags
             excerpt
             created
-            createdPretty: created(formatString: "DD MMMM, YYYY")
+            createdPretty: created(formatString: "DD.MM.YYYY")
             featuredImage {
               childImageSharp {
                 sizes(maxWidth: 800, quality: 100) {

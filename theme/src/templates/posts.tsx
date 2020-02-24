@@ -103,7 +103,7 @@ const PostsPage: FunctionComponent<PostsPageProps> = ({ pathContext, location })
             />
           ))}
           <ArchiveLinkWrapper>
-            <ArchiveLink to={`/archive`}>More posts</ArchiveLink>
+            <ArchiveLink to={`/archive`}>więcej</ArchiveLink>
           </ArchiveLinkWrapper>
         </PostsContainer>
         <Sidebar>

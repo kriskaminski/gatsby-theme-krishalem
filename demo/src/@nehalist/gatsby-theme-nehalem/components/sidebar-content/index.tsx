@@ -34,8 +34,6 @@ const DownloadButton = styled.a`
 const SidebarContent: FunctionComponent = () => {
   return (
     <StickySidebarContent>
-      <AdStyle />
-      <Carbon name={`carbon-home`} placement={`nehalemnetlifycom`} serve={`CE7D453J`} />
 
       <Bio textAlign={`justify`} avatarStyle={{float: `left`, marginRight: `10px`}}/>
 
