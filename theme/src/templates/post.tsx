@@ -274,7 +274,7 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = ({data, location}) =>
             <StyledPost dangerouslySetInnerHTML={{__html: post.html}} className={`post`}/>
             <PostFooter>
               <p>
-                Published under&nbsp;
+                Opublikowany w kategorii &nbsp;
                 {post.frontmatter.tags.map((tag, index) => (
                   <span key={index}>
                     <FooterTagLink
@@ -285,10 +285,10 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = ({data, location}) =>
                     {post.frontmatter.tags.length > index + 1 && <>, </>}
                   </span>
                 ))}
-                &nbsp;on <time dateTime={post.frontmatter.created}>{post.frontmatter.createdPretty}</time>.
+                &nbsp; <time dateTime={post.frontmatter.created}>{post.frontmatter.createdPretty}</time>.
               </p>
               {post.frontmatter.updated !== post.frontmatter.created &&
-              <p>Last updated on <time dateTime={post.frontmatter.updated}>{post.frontmatter.updatedPretty}</time>.</p>
+              <p>Data aktualizacji <time dateTime={post.frontmatter.updated}>{post.frontmatter.updatedPretty}</time>.</p>
               }
             </PostFooter>
           </article>
@@ -322,9 +322,9 @@ export const query = graphql`
         tags
         excerpt
         created
-        createdPretty: created(formatString: "DD MMMM, YYYY")
+        createdPretty: created(formatString: "DD.MM.YYYY")
         updated
-        updatedPretty: updated(formatString: "DD MMMM, YYYY")
+        updatedPretty: updated(formatString: "DD.MM.YYYY")
         featuredImage {
           childImageSharp {
             sizes(maxWidth: 800, quality: 75) {
