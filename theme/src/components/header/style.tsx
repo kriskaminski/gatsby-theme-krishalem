@@ -38,9 +38,11 @@ export const Title = styled.h1`
 
 export const Description = styled.h2`
   margin: 0;
+  color: #fff;
   opacity: .85;
 `;
 
 export const StyledTopics = styled(Typed)`
-  border-bottom: 3px #000 solid;
+  border-bottom: 3px #fff solid;
+  color: #fff;
 `;

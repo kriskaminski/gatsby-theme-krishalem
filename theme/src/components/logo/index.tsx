@@ -9,8 +9,8 @@ interface LogoProps {
 }
 
 const LogoImage = styled(Img)`
-  max-height: 30px;
-  width: 30px;
+  max-height: 45px;
+  width: 45px;
   margin-right: 45px;
 
   @media (max-width: ${Theme.breakpoints.sm}) {
@@ -20,15 +20,15 @@ const LogoImage = styled(Img)`
 
 const HomeLink = styled(Link)`
   align-self: center;
-  height: 30px;
+  height: 45px;
 `;
 
 const Logo: FunctionComponent<LogoProps> = ({title}) => {
   const logo = useStaticQuery(graphql`
     query {
-      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "nehalist-gatsby"}) {
+      file(sourceInstanceName: {eq: "themeAssets"}, name: {eq: "krishalem-gatsby"}) {
         childImageSharp {
-          fixed(width: 30, height: 30) {
+          fixed(width: 45, height: 45) {
             ...GatsbyImageSharpFixed
           }
         }

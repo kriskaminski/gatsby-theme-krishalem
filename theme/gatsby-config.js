@@ -43,8 +43,8 @@ module.exports = (themeOptions) => {
       ],
       search: true,
       author: {
-        name: `kriskaminski`,
-        description: `Cześć jestem Krzysiek. Piszę o rozwiązywaniu problemów i oszczędzaniu czasu dzięki technologii`,
+        name: `Kris Kaminski`,
+        description: `Cześć jestem Krzysiek.`,
         social: {
           facebook: ``,
           twitter: `https://twitter.com/kris__kaminski`,
