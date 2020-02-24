@@ -12,7 +12,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@nehalist/gatsby-theme-nehalem": "*",
+    "@kriskaminski/gatsby-theme-krishalem": "*",
     "gatsby": "^2.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"

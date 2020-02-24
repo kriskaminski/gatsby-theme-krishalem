@@ -1,11 +1,11 @@
 {
-  "name": "@nehalist/gatsby-theme-nehalem",
+  "name": "@kriskaminski/gatsby-theme-krishalem",
   "author": {
-    "name": "Kevin Hirczy",
-    "email": "kevin@nehalist.io",
-    "url": "https://nehalist.io"
+    "name": "Krzysztof Kamiński",
+    "email": "krzysztof.tomasz.kaminski@gmail.com",
+    "url": "https://kriskaminski.com"
   },
-  "version": "1.0.7",
+  "version": "0.1.0",
   "scripts": {
     "lint:ts": "tslint -c ../tslint.json 'theme/src/**/*.{ts,tsx}'",
     "lint:css": "stylelint --config ../.stylelintrc './src/**/*.{ts,tsx}'",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "repository": "https://github.com/nehalist/gatsby-theme-nehalem"
+    "repository": "https://github.com/kriskaminski/gatsby-theme-krishalem"
   },
   "bugs": {
-    "url": "https://github.com/nehalist/gatsby-theme-nehalem/issues"
+    "url": "https://github.com/kriskaminski/gatsby-theme-krishalem/issues"
   },
   "main": "index.js",
   "license": "MIT",
